@@ -1,0 +1,14 @@
+.jumbotron img {
+  object-position: 0 0;
+}
+
+.jumbotron .container {
+  justify-content: flex-start;
+  margin-top: 1rem;
+}
+
+@media (max-width: 768px) {
+  .jumbotron .container h1 {
+    text-align: center;
+  }
+}
